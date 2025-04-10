@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-box: box-sizing;
+}
+
+:root{
+    --font-body: "Nunito Sans", sans-serif;
+    --font-nunito: "Nunito", sans-serif;
+
+
+}
+
+body{
+    font-family: var(--font-body);
+}
+
+.header{
+    width: 100%;
+    background: #ffffff;
+    height: fit-content;
+    box-shadow: 0px 3px 3px 0px #0000000D;
+}
+
+.header-discount-content{
+    height: 52px;
+    background: #005CFF;
+    padding: 0 2px;
+    display: flex;
+    align-items: center;
+}
+
+.header-discount-content p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+.header-price-box{
+    background-color: #6220C1;
+    padding: 0 2px;
+}
+
+.header-discount-content p .discount-span{
+    font-style: italic;
+    font-weight: 700;
+}
+
+.header-input,
+.user-content,
+.header-nav{
+    display: none;
+}
+
+.header-second-content{
+    display: flex;
+    background-color: #FFFFFF;
+    padding: 22px 0;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 22px;
+}
+
+.menu-buttom{
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.menu-buttom img{
+    height: 21.38px;
+}
+
+.header-market-car-content{
+    position: relative;
+
+}
+
+.header-cart-number{
+    position: absolute;
+    top: -0.75rem;   
+    right: -0.75rem;
+    width: 21px;
+    height: 21px;
+    background: #005CFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-family: var(--font-nunito);
+}
+
+.header-input {
+    display: flex;
+    align-items: center;
+    border: 1px solid #DDDDDD;
+    width: 85%;
+    order: 1; 
+    height: 40px;
+    border-radius: 10px;
+    padding: 0 10px;
+}
+
+.header-input input{
+    width: 100%;
+    height: 100%;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+
+
+.header-input input::placeholder{
+    font-weight: 600;
+    color: #000000;
+    font-size: 14px;
+}
+
+.search-icon-content{
+    display: flex;
+    align: center;
+}
+
+

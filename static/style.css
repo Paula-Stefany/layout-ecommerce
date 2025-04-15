@@ -200,3 +200,141 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.products{
+    padding: 6rem 16px;
+}
+
+.products-title{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.products-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.cards{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.card{
+    height: 365px;
+    border: 1px solid #DDDDDD;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 174px;
+}
+
+.product-image{
+    background-image: url('../img/productCardImg.svg');
+    width: 158px;
+    height: 158px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.product-stamp{
+    width: 41px;
+    height: 23px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 10px;
+    color: #ffffff;
+    background-color: #00264E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13px;
+    margin-left: 13px;
+}
+
+
+.card-text{
+    margin: 0 7px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.card-title{
+    font-size: 14px;
+    font-weight: 400;
+    color: #303030;
+
+}
+
+.container-prices{
+    display: flex;
+    gap: 10px;
+
+}
+
+.card-prices{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container-prices-value{
+    font-weight: 400;
+    font-size: 12px;
+    text-decoration: line-through;
+}
+
+.card-final-value{
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.container-prices-span{
+    background-color: #5EC0BE;
+    height: 20px;
+    width: 64px;
+    border-radius: 4px;
+    padding: 4px 8px;
+    display: flex;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 700;  
+    font-size: 11px; 
+    justify-content:center;
+    align-items: center;
+}
+
+.card-split-price{
+    font-size: 12px;
+    font-weight: 400;
+    
+}
+.card-split-price span{
+    font-weight: 700;
+}
+
+.card-buttom{
+    margin: 0 7px;
+    background: #005CFF;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    width: 158px;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+}

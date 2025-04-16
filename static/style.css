@@ -338,3 +338,124 @@ body{
     font-size: 14px;
     cursor: pointer;
 }
+
+.repeated-banner{
+    width:100%;
+    padding-top: 40px;
+}
+
+.repeated-banner-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.bannerImg{
+    width: 100%;
+}
+
+.repeated-banner-text{
+    font-family: var(--font-nunito);
+    display: flex;
+    gap: 18px;
+    flex-direction: column;
+    padding: 38px 16px;
+}
+
+.repeated-banner-title{
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.repeated-banner-paragraph{
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+}
+
+.banner-details{
+    background-color: #DEDEDE;
+    padding: 0 16px;
+    height: 717px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--font-nunito);
+    justify-content: space-evenly;
+}
+
+.banner-details-title{
+    font-weight: 700;
+    font-size: 20;
+    line-height: 140%;
+    leter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.details-content{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.banner-details-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.detail-local{
+    min-width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #005CFF;
+    border-radius: 100%;
+}
+
+.detail-text{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    leter-spacing: 0.05em;
+}
+
+.last-banner,
+.last-banner-image{
+    width: 100%
+}
+
+.last-banner{
+    padding-bottom: 38px;
+}
+
+.last-banner-image{
+    background-image: url('../img/lastBanner.svg');
+    background-size: cover;
+    background-position: center;
+    height: 449px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.last-banner-text{
+    background-color: #005CFF;
+    width: 100%;
+    height: 75px;
+    font-family: var(--font-nunito);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    color: #FFFFFF;
+}
+
+

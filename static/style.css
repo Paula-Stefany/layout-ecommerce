@@ -202,7 +202,9 @@ body{
 }
 
 .products{
-    padding: 6rem 16px;
+    padding-top: 40px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .products-title{

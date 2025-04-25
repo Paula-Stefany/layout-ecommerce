@@ -217,10 +217,11 @@ body{
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    overflow: hidden;
 }
 
 .cards{
-    width: 100%;
+    width: 300%;
     display: flex;
     gap: 10px;
 }
@@ -341,6 +342,57 @@ body{
     cursor: pointer;
 }
 
+/* CARDS INTERATIVOS */
+
+.cards input{
+    display: none;
+}
+
+
+.manual-navigation {
+    width: 35px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    margin: auto;
+}
+
+
+.manual-btn {
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+    cursor: pointer;
+    background-color: #838383;
+    transition: 1s;
+  }
+ 
+.manual-btn:hover {
+    background-color: #303030;
+}
+
+
+.first {
+    display: flex;
+    transition: margin-left 0.5s ease-in-out;
+}
+
+
+#radio1:checked ~ .first{
+    margin-left: 0
+}
+
+
+#radio2:checked ~ .first{
+    margin-left: -30%
+}
+
+
+#radio3:checked ~ .first{
+    margin-left: -60%
+}
+
+/* FIM DOS CARDS INTERATIVOS */
 .repeated-banner{
     width:100%;
     padding-top: 40px;

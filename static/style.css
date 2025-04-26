@@ -96,6 +96,7 @@ body{
     font-family: var(--font-nunito);
 }
 
+
 .header-input {
     display: flex;
     align-items: center;
@@ -116,7 +117,6 @@ body{
 }
 
 
-
 .header-input input::placeholder{
     font-weight: 600;
     color: #000000;
@@ -126,7 +126,13 @@ body{
 .search-icon-content{
     display: flex;
     align: center;
+    cursor: pointer;
+    background: none;
+    border: none;
+    outline: none;
 }
+
+
 
 .banner{
     background: #E7E7EA ;

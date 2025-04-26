@@ -38,7 +38,6 @@ body{
     color: #FFFFFF;
 }
 
-
 .header-price-box{
     background-color: #6220C1;
     padding: 0 2px;
@@ -744,4 +743,141 @@ body{
 .footer-bar{
     height: 15px;
     border: 1px solid #F5F5F5;
+}
+
+
+@media screen and (min-width: 1024px) {
+    /* Aqui entram os estilos para desktop */
+    .menu-buttom{
+        display: none;
+    }
+
+    /* Exibe o input, nav e user-content */
+    .header-input,
+    .user-content,
+    .header-nav {
+        display: flex;
+    }
+
+    
+    .header-input{
+        max-height: 38px;
+    }
+
+    .header-discount-content{
+        height: 30px;
+        justify-content: center;
+        font-size: 14px;
+    }
+
+    .header-second-content {
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        padding: 32px 60px;
+        gap: 40px;
+    }
+
+    .header-input {
+        width: 400px;
+        height: 48px;
+        order: unset;
+    }
+
+    .user-content {
+        align-items: center;
+        gap: 8px;
+    }
+
+    .user-content p {
+        text-align: left;
+        font-size: 14px;
+    }
+
+    .first-li{
+        display: flex;
+
+        
+    }
+
+    .first-li p{
+        margin-left: 10px;
+    }
+
+    .nav-items{
+        display: flex;
+        font-size: 14px;
+        list-style: none;
+        gap: 10px;
+
+    }
+
+    .header-nav{
+        justify-content: center;
+        display: flex;
+    }
+
+   .cards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   }
+
+    .banner{
+        height: 510px;
+    }
+
+
+    .repeated-banner{
+        max-width: 1177px;
+        display: flex;
+    }
+
+    .repeated-banner-content{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .repeated-banner-image{
+        width: 50%
+    }
+
+    .repeated-banner-text{
+        width: 50%;
+    }
+
+    .banner-details{
+        width: 100%;
+    }
+
+    .banner-details-content{
+        display: flex;
+        max-width:1177px;
+        align-items: center;
+        width: 100%
+
+    }
+
+    .banner-details-image{
+        max-width: 652px;
+        width: 50%
+    }
+
+    .banner-details-text{
+        margin-left: 10px;
+        width: 40%;
+    }
+
+    .form{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        max-width: 1260px;
+        max-height: 227px;
+    }
+
+    .footer-payments-content{
+        width: 545.28px;
+    }
+
 }
